@@ -1,0 +1,17 @@
+database:
+  image: mongo
+
+bf-admin:
+  build: .
+  ports:
+    - "80"
+  environment:
+    port: "80"
+  env_file: .env
+  links:
+   - database
+
+
+
+
+

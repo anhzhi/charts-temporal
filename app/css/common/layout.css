@@ -1,0 +1,20 @@
+:root {
+
+  --box {
+    padding: 8px 24px;
+  }
+
+  --flexNotMoreThan200 {
+    flex: 0 1 200px;
+  }
+}
+
+@keyframes bg{
+  0%{
+    background-position-y: 0;
+  }
+
+  100%{
+    background-position-y: 8000px;
+  }
+}
